@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel='stylesheet' href='../styles/styles.css'>
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class='text-black'>
+        <div class="nav-wrapper grey grey lighten-4 ">
+          <a href="#" class="brand-logo center">Get Weather!</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down weather-img">
+          <img src='../images/icon.png'>
+          </ul>
+        </div>
+      </nav>
+            
+    <div class="container">
+    <div class='row'>
+    
+        <form action="#" class='col s8 offset-s2 l3'>
+          <input  type='text' id='input-search' placeholder=" Looking for another city?"/>
+          <button class='btn btn-small blue 'id='search-btn'>Search city</button>
+            <p>
+              <label>
+                <input name="group1" class='select-country ' type="radio" id="3530597"/>
+                <span>Mexico City</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" class='select-country' type="radio" id="658225"/>
+                <span>Helsinki</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" class='select-country' type="radio" id="4880731" />
+                <span>Washington</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="group1" class='select-country' type="radio" id="3117735"/>
+                <span>Madrid</span>
+              </label>
+            </p>
+            <p>
+                <label>
+                  <input name="group1" class='select-country' type="radio" id="1850147"/>
+                  <span>Tokio</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="group1" class='select-country' type="radio" id="6942553"/>
+                  <span>Paris</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="group1" class='select-country' type="radio" id="6254926"/>
+                  <span>Massachusetts</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="group1" class='select-country' type="radio" id="6325494"/>
+                  <span>Quebec</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input name="group1" class='select-country' type="radio" id="2643743"/>
+                  <span>London</span>
+                </label>
+            </p>
+          </form>
+          
+      <div class='col s8 offset-s2 l6 offset-l2'>
+      <div id='print-weather'></div>
+      
+      
+      </div>
+    
+    </div>
+</div>
+    
+  <script src='./main.js'></script>
+</body>
+
+</html>
