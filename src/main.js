@@ -1,7 +1,7 @@
 //Data request
 const getData = async (id) => {
   try {
-    const requestData = await fetch(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?${id}&APPID=fb87b9c8f06748883e104fa7b3091649`)
+    const requestData = await fetch(`https://api.openweathermap.org/data/2.5/weather?${id}&APPID=fb87b9c8f06748883e104fa7b3091649`)
     const data = requestData.json()
     return data
   } catch (error) {
