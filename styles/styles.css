@@ -69,7 +69,22 @@ margin-top:35px;
    
 }
 
-#print-weather{
 
-margin-top:80px;
+
+
+@media(min-width:1366px){
+
+
+
+    #print-weather{
+
+        margin-top:120px;
+        }
+        
+        .checkbox
+        {
+        margin-top: 24px;
+        
+        }
+
 }
